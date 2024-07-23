@@ -1,0 +1,82 @@
+* {
+  color: rgb(209, 222, 233);
+}
+
+.my-card {
+  background-image: url("https://media.istockphoto.com/id/491701259/photo/blue-sky-with-sun.jpg?s=612x612&w=0&k=20&c=aB7c-e0YFezBb8cgSykiEcAh_2fXEie3inIudnsNa9g=");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#input {
+  backdrop-filter: blur(5px);
+  max-width: 90%;
+  height: 55px;
+  margin: auto;
+  border-radius: 40px;
+  border: 1px rgba(50, 49, 49, 0.253) solid;
+}
+
+#bar {
+  position: relative;
+  width: 95%;
+  outline: none;
+  height: 50px;
+  border: 0;
+  border-radius: 40px;
+  backdrop-filter: blur(5px);
+  background: transparent;
+}
+
+#bar[type="text"] {
+  padding-left: 3%;
+  color: black;
+}
+
+#button {
+  width: auto;
+  top: 0;
+  font-size: 20px;
+  backdrop-filter: blur(5px);
+  background: transparent;
+  border: 0;
+}
+
+.box {
+  max-width: 100%;
+  margin-top: 60px;
+}
+
+.card {
+  border-radius: 40px;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#box {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+}
+
+#cont p {
+  margin: 0;
+}
+
+#clouds {
+  margin-left: 20%;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 784px) {
+  #bar {
+    width: 80%;
+  }
+  #city {
+    margin-left: 30%;
+  }
+  .box {
+    max-width: 100%;
+  }
+}
